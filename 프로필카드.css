@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Ramche';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Ramche.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{  
+    font-family: 'Ramche';
+}
+
+body {
+    height: 100vh;
+    background-size: cover;
+    background: linear-gradient(135deg,#EBA9DB, #CCB1DA,
+                         #A6CAF4, #ADF1D3);
+    background-color: #93B874;
+    
+    
+    
+    
+
+}
+.container {
+    display: flex;
+     /* Flex 컨테이너로 설정합니다. */
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+     height: 100vh;
+  }
+.box{
+        background: linear-gradient(135deg,#eee7ae,#87bdeb);
+    
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        border-radius: 25px;
+        height: 550px;
+        width: 450px;
+        margin: 10px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        
+        
+    }
+.js1{
+    
+    border-radius: 50%;
+    
+    margin-top: 15px;
+    
+    
+}
+.box > div:nth-child(0) {
+    margin-top:10px;
+    font-weight: 15000;
+}
+.star{
+    background-color: #EBA9DB;
+    border-radius: 50%;
+    height: 35px;
+    width: 370px;
+    margin-left:40px;
+    text-align: center;
+    
+}
+.instar{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+/* 오른쪽 카드 */
+
+.main >  ul {
+    display:flex;
+   
+}
+
+
+.content {
+    display:none;
+    margin:20px;
+    margin-top:0;
+    padding:5px;
+    width: 400px;
+    
+    overflow: auto;
+}
+
+
+.show {
+    display:block; height: auto;
+    background-image: radial-gradient(circle at 29% 55%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 4%,transparent 4%, transparent 44%,transparent 44%, transparent 100%),radial-gradient(circle at 85% 89%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 51%,transparent 51%, transparent 52%,transparent 52%, transparent 100%),radial-gradient(circle at 6% 90%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 53%,transparent 53%, transparent 64%,transparent 64%, transparent 100%),radial-gradient(circle at 35% 75%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 6%,transparent 6%, transparent 98%,transparent 98%, transparent 100%),radial-gradient(circle at 56% 75%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 16%,transparent 16%, transparent 23%,transparent 23%, transparent 100%),radial-gradient(circle at 42% 0%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 3%,transparent 3%, transparent 26%,transparent 26%, transparent 100%),radial-gradient(circle at 29% 28%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 51%,transparent 51%, transparent 75%,transparent 75%, transparent 100%),radial-gradient(circle at 77% 21%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 35%,transparent 35%, transparent 55%,transparent 55%, transparent 100%),radial-gradient(circle at 65% 91%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 46%,transparent 46%, transparent 76%,transparent 76%, transparent 100%),linear-gradient(45deg, rgb(83, 91, 235),rgb(76, 11, 174));
+    color:white;
+    box-shadow: 0px 10px 20px rgb(0,0,0 ,0.5);
+    text-shadow:1px 1px 1px black;
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+   
+}
+
+
+.btn_tap {
+    padding:5px;
+    display:block;
+    color:cornflowerblue;
+    font-weight:900;
+    cursor: pointer;
+    margin-top:10px;
+    border-bottom:2px solid black;
+    font-size:0.8em;
+
+
+}
+
+.today > input
+{
+    border:none;
+    background-color: whitesmoke;
+    height:22px;
+    width: 300px;
+    position:relative;
+   
+    border-radius:11px;
+    padding:5px;
+}
+
+
+.today > input:focus {
+    outline:none;
+}
+
+
+.today > span {
+    position:relative;
+    left: 5px;
+    font-size:1.5em;
+    cursor: pointer;
+    font-weight:300;
+}
+
+.today > button {
+    position:relative;
+    left : 15px;
+}
+
+/* 3번박스 */
+.box2{
+    background-color: transparent;
+    overflow: auto;
+}
+
+.today{
+    overflow:auto;
+}
+/* 오른쪽 호버효과 */
+.content:hover{
+    transform: translateX(10px);
+}
